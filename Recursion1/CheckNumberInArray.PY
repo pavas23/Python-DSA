@@ -33,9 +33,8 @@ def checkNumber(arr, x):
     else:
         return False
     
-    
 
-# Main
+
 from sys import setrecursionlimit
 setrecursionlimit(11000)
 n=int(input())
