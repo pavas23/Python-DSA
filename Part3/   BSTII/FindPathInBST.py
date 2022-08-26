@@ -37,9 +37,7 @@ def findPathBST(root,data):
         return rightout
     else:
         return None
-
-    
-    
+ 
 def buildLevelTree(levelorder):
     index = 0
     length = len(levelorder)
@@ -73,3 +71,4 @@ path = findPathBST(root,data)
 if path is not None:
     for ele in path:
         print(ele,end=' ')
+        
