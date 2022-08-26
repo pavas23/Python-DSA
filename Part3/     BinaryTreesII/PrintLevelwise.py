@@ -91,41 +91,6 @@ def printLevelWise(root):
         print()
     return
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
 #Taking level-order input using fast I/O method
 def takeInput():
     levelOrder = list(map(int, stdin.readline().strip().split(" ")))
